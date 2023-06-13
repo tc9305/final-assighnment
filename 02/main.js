@@ -1,7 +1,7 @@
 $(function(){
     function updateCourseTable(){
         $("#courseTable").empty();
-        $("#courseTable").append("<tr><th>流程</th><th>時間</th><th>主題</th></tr>");
+        $("#courseTable").append("<tr><th>流程</th><th>時間</th><th>天數(讓你安心上路)</th></tr>");
         var topicCount= topic.length;
 
         //一秒鐘有1000毫秒
