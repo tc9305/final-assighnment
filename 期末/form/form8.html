@@ -43,25 +43,29 @@
           background-color: #45a049;
         }
       </style>
-             <section class="contact">
-              <form action="../bet.php" method="post">
-              <div class="contact-form">
-                <img src="../sea.jpg" id="picture" alt="圖片" style="width: 200px;height: 200px;margin-bottom: 20px;"/>
-                
-                  <label>名字</label>
-                  <input type="text" name="name" id="name" />
-                  <br>
-                  <label>電話</label>
-                  <input type="text" name="phone" id="phone" />
-                  <br>
-                  <label>email</label>
-                  <input type="text" name="email" id="email" />
-                  <br>
-                  <input type="submit" name="submit" value="送出" />
-                
-              </div class="contact-form">
-            </form>
-          </section>
+            <form class="login-form">
+        <div class="contact-form">
+          <img src="../sea.jpg" id="picture" alt="圖片" style="width: 300px;height: 200px;margin-bottom: 20px;"/>
+          
+            <label>名字</label>
+            <input type="text" name="name" id="name" />
+            <br>
+            <label>電話</label>
+            <input type="text" name="phone" id="phone" />
+            <br>
+            <label>email</label>
+            <input type="text" name="email" id="email" />
+            <br>
+            <input type="submit" name="submit" value="送出" />
+          
+        </div class="contact-form">
+      </form>
+      <script >
+        const element = document.querySelector('.login-form');
+        element.addEventListener('submit', function (e) {
+          alert('訂購成功！');
+        })
+      </script>
     </head>
   <body>
     
