@@ -64,9 +64,7 @@ input[type="button"]:hover {
     background-color: #45a049;
 }
 
-input[type="radio"] {
-    display: none;
-  }
+
 
 label {
     display: inline-block;
