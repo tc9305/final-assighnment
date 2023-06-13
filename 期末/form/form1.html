@@ -43,10 +43,9 @@
         }
       </style>
       
-       <section class="contact">
-        <form action="../bet.php" method="post">
+       <form class="login-form">
         <div class="contact-form">
-          <img src="../box1.jpg" id="picture" alt="圖片" style="width: 200px;height: 200px;margin-bottom: 20px;"/>
+          <img src="../box1.jpg" id="picture" alt="圖片" style="width: 300px;height: 200px;margin-bottom: 20px;"/>
           
             <label>名字</label>
             <input type="text" name="name" id="name" />
@@ -61,7 +60,12 @@
           
         </div class="contact-form">
       </form>
-    </section>
+      <script >
+        const element = document.querySelector('.login-form');
+        element.addEventListener('submit', function (e) {
+          alert('訂購成功！');
+        })
+      </script>
     </head>
   <body>
    
