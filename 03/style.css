@@ -12,6 +12,7 @@ body {
     height: 100vh;
 }
 
+
 .container {
     max-width: 600px;
     padding: 20px;
@@ -63,8 +64,6 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color: #45a049;
 }
-
-
 
 label {
     display: inline-block;
