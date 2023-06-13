@@ -43,7 +43,8 @@ $(function(){
                         $("#options").append(`<input name='options'type='radio'value='${index}'><label>${element[0]}</label><br><br>`);
                     });
                 }
-                return false;//跳離迴圈的方式00
+                return false;//跳離迴圈的方式
+                    
             }});
 
         }
