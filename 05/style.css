@@ -20,8 +20,8 @@ body {
   
   #player {
     margin: 20px auto;
-    width: 640px;
-    height: 390px;
+    width: 800px;
+    height: 510px;
   }
   
   input[type="button"] {
